@@ -49,7 +49,7 @@ int	 main ()
 	if (valore==patch)
 		printf("\n\nIl gioco è stato hackerato!!!");
 	else
-		printf("Tutto ok l\'utente era onesto");
+		printf("\n\nTutto ok l\'utente era onesto");
     close(handle);
    getch();
    return (0);
