@@ -1,8 +1,9 @@
 /* Programma per dare mazzette ai poliziotti di magnaccio manager
 
+16/1/05  Versione 2.35  Corrette poche cose, ora funziona
 16/1/05  Versione 2.3  Modificata in editor ma non funziona
 16/1/05	 Versione 2.2  Funzionante
-15/1/05  Versione 2.1  Funzionante a metà
+15/1/05  Versione 2.1  Funzionante a met�
 15/1/05  Versione 2.0  Non Funzionante
 */
 
@@ -20,7 +21,7 @@ int	 main ()
 //	char msg[] = "Hello world";
 //    patch=0;
 	clrscr();
-	printf("Questo programma ti permetterà di modificare la percentuale di polizia a tuo piacimento\n\n");
+	printf("Questo programma ti permetter� di modificare la percentuale di polizia a tuo piacimento\n\n");
 	printf("Premere un tasto per continuare...\n\n");
 	getch();
 	printf("Inserire il valore di polizia che preferisci compreso tra zero e novantanove");
@@ -42,7 +43,7 @@ int	 main ()
    }
    lseek(handle,-6,SEEK_END);
 //   write(handle, msg, strlen(msg));
-   //write(handle, valorex, 1);
+   write(handle, &valorex, 1);
    close(handle);
    printf("Tutto ok!\nPuoi andare a giocare.\n\n\n\nPer eventuali bug contattami\nL\'Autore non si rende responsabile di eventuali danni\ncausati da questo programma, primo fra tutti l\'azzeramento dei progressi nel gioco.");
    getch();
