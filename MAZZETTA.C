@@ -1,5 +1,6 @@
 /* Programma per dare mazzette ai poliziotti di magnaccio manager
 
+16/1/05	 Versione 2.2  Funzionante
 15/1/05  Versione 2.1  Funzionante a met…
 15/1/05  Versione 2.0  Non Funzionante
 */
@@ -30,7 +31,7 @@ int	 main ()
    }
    lseek(handle,-6,SEEK_END);
 //   write(handle, msg, strlen(msg));
-   write(handle, 0x0, 6);
+   write(handle, 0x0, 1);
    close(handle);
    printf("Adesso tutti i poliziotti sono morti!!!\nPuoi andare a giocare.\n\n\n\nPer eventuali bug contattare tipika@libero.it\nL\'Autore non si rende responsabile di eventuali danni\ncausati da questo programma, primo fra tutti l\'azzeramento dei progressi nel gioco.");
    getch();
