@@ -3,7 +3,7 @@
 17/1/05  Versione 2.3  Con indirizzi di memoria per spacciatori
 16/1/05  Versione 2.3  Adattata
 16/1/05	 Versione 2.2  Funzionante
-15/1/05  Versione 2.1  Funzionante a metÃ 
+15/1/05  Versione 2.1  Funzionante a met…
 15/1/05  Versione 2.0  Non Funzionante
 */
 
@@ -36,7 +36,7 @@ void definizione_posizione()
      posizione[14]=1683;
      posizione[15]=1804;
      posizione[16]=1928;
-     return 0;
+	 return;
 }
 
 int	 main ()
@@ -49,21 +49,21 @@ int	 main ()
 	printf("Questo programma per magnaccio manager ti modifichera\' le qualita\' dei tuoi spaccini\n\n");
 	printf("Premere un tasto per continuare...\n\n");
 	getch();
-   if ((handle = open("temp\spacci~1.tem", O_RDWR | O_BINARY)) == -1)
+   if ((handle = open("temp\\spacci~1.tem", O_RDWR | O_BINARY)) == -1)
    {
 	  printf("\n\n\nErrore: Non trovo il file dei salvataggi!\n\nSei sicuro di avermi messo nella stessa cartella di Magnaccio Manager?\n");
       printf("\nPremere un tasto per continuare...");
 	  getch();
 	  return 1;
    }
-   for ( n=l; n <= 16; ++n )
+   for ( n=1; n <= 16; ++n )
    {
        lseek(handle,posizione[n],SEEK_SET);
 //   write(handle, msg, strlen(msg));
        write(handle, &patch, 3);
    }
    close(handle);
-   printf("Hai modificato i tuoi spaccini!\nPuoi andare a giocare.\n\n\n\nPer eventuali bug contattami\nL\'Autore non si rende responsabile di eventuali danni\ncausati da questo programma, primo fra tutti l\'azzeramento dei progressi nel gioco.");
+   printf("Hai modificato i tuoi spaccini!\nPuoi andare a giocare.\n\n\n\nPer eventuali bug contattare tipika@libero.it\nL\'Autore non si rende responsabile di eventuali danni\ncausati da questo programma, primo fra tutti l\'azzeramento dei progressi nel gioco.");
    getch();
    return (0);
 }
