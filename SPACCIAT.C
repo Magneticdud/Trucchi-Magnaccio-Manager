@@ -3,7 +3,7 @@
 17/1/05  Versione 2.3  Con indirizzi di memoria per spacciatori
 16/1/05  Versione 2.3  Adattata
 16/1/05	 Versione 2.2  Funzionante
-15/1/05  Versione 2.1  Funzionante a met…
+15/1/05  Versione 2.1  Funzionante a metÃ 
 15/1/05  Versione 2.0  Non Funzionante
 */
 
@@ -63,7 +63,7 @@ int	 main ()
        write(handle, &patch, 3);
    }
    close(handle);
-   printf("Hai modificato i tuoi spaccini!\nPuoi andare a giocare.\n\n\n\nPer eventuali bug contattare tipika@libero.it\nL\'Autore non si rende responsabile di eventuali danni\ncausati da questo programma, primo fra tutti l\'azzeramento dei progressi nel gioco.");
+   printf("Hai modificato i tuoi spaccini!\nPuoi andare a giocare.\n\n\n\nPer eventuali bug contattami\nL\'Autore non si rende responsabile di eventuali danni\ncausati da questo programma, primo fra tutti l\'azzeramento dei progressi nel gioco.");
    getch();
    return (0);
 }
