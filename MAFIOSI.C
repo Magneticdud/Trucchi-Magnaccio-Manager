@@ -35,7 +35,7 @@ void definizione_posizione()
      //puddu 1441
      posizione[12]=1441;
      //don vitaliano 1563
-     posizione[13]=1563;
+	 posizione[13]=1563;
      //paoluccio 1690
      posizione[14]=1690;
      return 0;
@@ -58,7 +58,7 @@ int	 main ()
 	  getch();
 	  return 1;
    }
-   for ( n=l; n <= 14; ++n )
+   for ( n=1; n <= 14; ++n )
    {
        lseek(handle,posizione[n],SEEK_SET);
 //   write(handle, msg, strlen(msg));
