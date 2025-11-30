@@ -1,10 +1,10 @@
 # Magnaccio Manager - Patch e Editor
 
-Archivio storico di patch e tool per il videogioco **Magnaccio Manager**, sviluppati nel 2007 in linguaggio C.
+Archivio storico di patch e tool per il videogioco **Magnaccio Manager**, sviluppati nel 2005 in linguaggio C.
 
 ## 📜 Contesto Storico
 
-Magnaccio Manager era un videogioco gestionale italiano che simulava la gestione di attività criminali. Questi strumenti furono creati nel 2007 per modificare i file di salvataggio del gioco, permettendo di alterare vari parametri come denaro, risorse e statistiche.
+Magnaccio Manager era un videogioco gestionale italiano che simulava la gestione di attività criminali. Questi strumenti furono creati nel 2005 per modificare i file di salvataggio del gioco, permettendo di alterare vari parametri come denaro, risorse e statistiche.
 
 **Nota**: Il gioco non è più ufficialmente disponibile e questo repository ha puro scopo archivistico e didattico.
 

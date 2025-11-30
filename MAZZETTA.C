@@ -1,7 +1,7 @@
 /* Programma per dare mazzette ai poliziotti di magnaccio manager
 
 16/1/05	 Versione 2.2  Funzionante
-15/1/05  Versione 2.1  Funzionante a met…
+15/1/05  Versione 2.1  Funzionante a metÃ 
 15/1/05  Versione 2.0  Non Funzionante
 */
 
@@ -19,7 +19,7 @@ int	 main ()
 //	char msg[] = "Hello world";
 //    patch=0;
 	clrscr();
-    printf("Questo programma ti far… diminuire la percentuale di polizia fino allo 0\%\n\n");
+    printf("Questo programma ti farÃ  diminuire la percentuale di polizia fino allo 0\%\n\n");
 	printf("Premere un tasto per continuare...\n\n");
 	getch();
    if ((handle = open("ultima~1.dat", O_RDWR | O_BINARY)) == -1)
