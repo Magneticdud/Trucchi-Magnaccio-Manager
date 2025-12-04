@@ -36,7 +36,8 @@ Magnaccio Manager era un videogioco gestionale italiano che simulava la gestione
 
 - Sistema operativo: Windows 98 o Windows XP **a 32 bit**.
 - Magnaccio Manager (versione 1.03 o 1.3)
-- I programmi sono eseguibili compilati da codice C **con un compilatore per DOS, quindi non funzionano su sistemi operativi moderni a 64 bit**
+- [La release originale del 2005](https://github.com/Magneticdud/Trucchi-Magnaccio-Manager/releases/tag/v1.0-2005) fu compilata da codice C **con un compilatore per DOS, quindi non funzionano su sistemi operativi moderni a 64 bit**
+- Su richiesta ho effettuato un [port moderno con Visual Studio 2022](https://github.com/Magneticdud/Trucchi-Magnaccio-Manager/releases), a occhio pare che funzioni tutto, ma i programmi non sono testati a fondo come lo erano vent'anni fa quando ero fissato con il gioco.
 
 ## ⚠️ Limitazioni Note
 
@@ -68,11 +69,10 @@ Il repository originale includeva anche:
 
 ## ⚖️ Note Legali e Disclaimer
 
-Questo è un progetto archivistico che documenta uno sforzo di modding amatoriale del 2007. I programmi modificano file di salvataggio locali di un videogioco non più distribuito ufficialmente.
+Questo è un archivio di un modding amatoriale del 2005. I programmi modificano file di salvataggio locali di un videogioco non più distribuito ufficialmente.
 
 - Il codice è fornito "così com'è" senza alcuna garanzia
 - Solo per scopi educativi e di preservazione storica
-- Non supporto né incoraggio la pirateria software
 
 ## 📝 Licenza
 
